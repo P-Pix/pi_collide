@@ -1,0 +1,27 @@
+# Fichiers compilés
+build/
+*.o
+*.exe
+
+# Fichiers temporaires
+*.tmp
+*.log
+*~
+
+# Fichiers d'éditeur
+.vscode/settings.json
+.vscode
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de débogage
+*.dSYM/
+core
+
+# Dépendances externes (si elles existent)
+libs/
+vendor/

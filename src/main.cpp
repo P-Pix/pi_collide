@@ -186,13 +186,13 @@ int main()
     
     sf::Texture blockImg;
     bool textureLoaded = false;
-    if (blockImg.loadFromFile("image/block.png")) {
+    if (blockImg.loadFromFile("assets/image/block.png")) {
         textureLoaded = true;
     }
     
     sf::Font FONT;
     bool fontLoaded = false;
-    if (FONT.loadFromFile("font/lemon_milk.otf")) {
+    if (FONT.loadFromFile("assets/font/lemon_milk.otf")) {
         fontLoaded = true;
         std::cout << "Police personnalisée chargée" << std::endl;
     } else {
@@ -203,7 +203,7 @@ int main()
         }
     }
     sf::Music clack;
-    if(!clack.openFromFile("sound/Collisions.wav")) {
+    if(!clack.openFromFile("assets/sound/Collisions.wav")) {
         std::cout << "Attention: fichier son non trouvé" << std::endl;
     } else {
         std::cout << "Son chargé avec succès" << std::endl;
